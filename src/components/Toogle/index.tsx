@@ -10,8 +10,8 @@ export function Toggle() {
     <Container>
       <Feather name="x" color={theme.colors.white} size={26} />
       <Info>
-        <Text>Calories</Text>
-        <Text>150</Text>
+        <Label>Calories</Label>
+        <Label>150</Label>
       </Info>
       <Info>
         <Label>Weight</Label>

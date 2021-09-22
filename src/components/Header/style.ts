@@ -1,25 +1,25 @@
 import styled from 'styled-components/native';
-import { theme } from '../../styles/theme';
+import { height, sizes, theme } from '../../styles/theme';
 
 export const Container = styled.View`
   width: 100%;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-top: 40;
-  margin-bottom: 20;
+  margin-top: ${height * 0.08}px;
+  margin-bottom: ${height * 0.08}px;
 `;
 
 export const Title = styled.Text`
   font-family: ${theme.fonts.medium.fontFamily};
   color: ${theme.colors.brown};
-  font-size: 28;
+  font-size: ${sizes.fonts.h3}px;
 `;
 
 export const SubTitle = styled.Text`
   font-family: ${theme.fonts.medium.fontFamily};
   color: ${theme.colors.orange};
-  font-size: 20;
+  font-size: ${sizes.fonts.h4}px;
   align-self: flex-end;
 `;
 

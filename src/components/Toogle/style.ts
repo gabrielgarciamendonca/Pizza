@@ -1,14 +1,14 @@
 import styled from 'styled-components/native';
-import { theme } from '../../styles/theme';
+import { height, sizes, theme, width } from '../../styles/theme';
 
 export const Container = styled.View`
   position: absolute;
   z-index: 1;
-  top: 150px;
-  left: 24px;
+  top: ${height * 0.2}px;
+  left: ${width * 0.08}px;
 
-  width: 70px;
-  height: 170px;
+  width: ${width * 0.18}px;
+  height: ${height * 0.3}px;
   overflow: hidden;
 
   background-color: ${theme.colors.red};
@@ -16,22 +16,21 @@ export const Container = styled.View`
   border-bottom-left-radius: 30px;
   border-top-right-radius: 30px;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding-top: ${height * 0.03}px;
 `;
 
 export const Info = styled.View`
-  margin-top: 17px;
+  margin-top: ${height * 0.01};
 `;
 
 export const Label = styled.Text`
   font-family: ${theme.fonts.medium.fontFamily};
   color: ${theme.colors.white};
-  font-size: 14px;
+  font-size: ${sizes.fonts.h7.fontSize}px;
 `;
 
 export const Value = styled.Text`
   font-family: ${theme.fonts.medium.fontFamily};
   color: ${theme.colors.white};
-  font-size: 15px;
+  font-size: ${sizes.fonts.h6.fontSize}px;
 `;

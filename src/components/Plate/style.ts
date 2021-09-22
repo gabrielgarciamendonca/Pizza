@@ -1,5 +1,6 @@
 import styled from 'styled-components/native';
+import { height } from '../../styles/theme';
 
 export const Container = styled.Image`
-  flex: 1;
+  height: ${height * 0.4}px;
 `;

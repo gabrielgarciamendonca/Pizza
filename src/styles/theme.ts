@@ -1,3 +1,4 @@
+import { Dimensions } from 'react-native';
 import { configureFonts } from 'react-native-paper';
 import { Font } from 'react-native-paper/lib/typescript/types';
 
@@ -12,6 +13,28 @@ const fontConfig = {
     medium: { ...medium },
     light: { ...light },
     thin: { ...thin },
+  },
+};
+
+export const { width, height } = Dimensions.get('window');
+
+export const sizes = {
+  fonts: {
+    h2: width / 11,
+    h3: width / 14,
+    h4: width / 19,
+    h5: {
+      fontSize: width / 20,
+      lineHeight: width * 0.05,
+    },
+    h6: {
+      fontSize: width / 26,
+      lineHeight: width * 0.05,
+    },
+    h7: {
+      fontSize: width / 30,
+      lineHeight: width * 0.05,
+    },
   },
 };
 
