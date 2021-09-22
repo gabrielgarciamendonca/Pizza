@@ -5,7 +5,6 @@ export const Container = styled.View`
   position: absolute;
   z-index: 1;
   top: ${height * 0.2}px;
-  left: ${width * 0.08}px;
 
   width: ${width * 0.18}px;
   height: ${height * 0.3}px;
@@ -20,7 +19,7 @@ export const Container = styled.View`
 `;
 
 export const Info = styled.View`
-  margin-top: ${height * 0.01};
+  margin-top: ${height * 0.03}px;
 `;
 
 export const Label = styled.Text`
