@@ -5,15 +5,9 @@ import { theme } from '../../styles/theme';
 
 export function Button() {
   return (
-      <Container>
-       <Text>
-         Add to Card
-       </Text>
-       <Feather
-          name="shopping-cart"
-          size={24}
-          color={theme.colors.white}
-       />
-      </Container>
+    <Container>
+      <Text>Add to Card</Text>
+      <Feather name="shopping-cart" size={24} color={theme.colors.white} />
+    </Container>
   );
 }
