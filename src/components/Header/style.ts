@@ -11,13 +11,13 @@ export const Container = styled.View`
 `;
 
 export const Title = styled.Text`
-  font-family: ${theme.fonts.primary700};
+  font-family: ${theme.fonts.medium.fontFamily};
   color: ${theme.colors.brown};
   font-size: 28;
 `;
 
 export const SubTitle = styled.Text`
-  font-family: ${theme.fonts.primary500};
+  font-family: ${theme.fonts.medium.fontFamily};
   color: ${theme.colors.orange};
   font-size: 20;
   align-self: flex-end;

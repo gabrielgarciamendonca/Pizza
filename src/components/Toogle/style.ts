@@ -25,13 +25,13 @@ export const Info = styled.View`
 `;
 
 export const Label = styled.Text`
-  font-family: ${theme.fonts.primary400};
+  font-family: ${theme.fonts.medium.fontFamily};
   color: ${theme.colors.white};
   font-size: 14px;
 `;
 
 export const Value = styled.Text`
-  font-family: ${theme.fonts.primary700};
+  font-family: ${theme.fonts.medium.fontFamily};
   color: ${theme.colors.white};
   font-size: 15px;
 `;

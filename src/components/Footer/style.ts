@@ -11,22 +11,22 @@ export const FooterContainer = styled.View`
 `;
 
 export const Text = styled.Text`
-  font-family: ${theme.fonts.primary400};
+  font-family: ${theme.fonts.regular.fontFamily};
   color: ${theme.colors.gray};
-  font-size: 14;
-  line-height: 18;
-  margin-top: 15;
-  margin-bottom: 15;
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 `;
 
 export const Label = styled.Text`
-  font-family: ${theme.fonts.primary700};
+  font-family: ${theme.fonts.medium.fontFamily};
   color: ${theme.colors.brown};
-  font-size: 17;
+  font-size: 17px;
 `;
 
 export const Price = styled.Text`
-  font-family: ${theme.fonts.primary700};
+  font-family: ${theme.fonts.medium.fontFamily};
   color: ${theme.colors.brown};
-  font-size: 34;
+  font-size: 34px;
 `;
