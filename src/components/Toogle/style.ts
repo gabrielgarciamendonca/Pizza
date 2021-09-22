@@ -1,13 +1,15 @@
+import { MotiView } from '@motify/components';
 import styled from 'styled-components/native';
-import { height, sizes, theme, width } from '../../styles/theme';
+import { height, sizes, theme } from '../../styles/theme';
 
-export const Container = styled.View`
+export const Container = styled(MotiView)`
   position: absolute;
   z-index: 1;
-  top: ${height * 0.2}px;
+  top: ${height * 0.18}px;
 
-  width: ${width * 0.18}px;
-  height: ${height * 0.3}px;
+  width: 65px;
+  /* height: ${height * 0.3}px; */
+  height: 65px;
   overflow: hidden;
 
   background-color: ${theme.colors.red};
@@ -17,6 +19,8 @@ export const Container = styled.View`
   align-items: center;
   padding-top: ${height * 0.03}px;
 `;
+
+export const IconContainer = styled(MotiView)``;
 
 export const Info = styled.View`
   margin-top: ${height * 0.03}px;
